@@ -43,6 +43,11 @@ h1, h2, h3, h4, h5, p {
     
 }
 
+.bio{
+    font-family: 'Lato', sans-serif, Arial; 
+    font-size: 60%;
+    line-height: 1.5em;
+}
 .img-responsive{
     margin-left: auto;
     margin-right: auto; 
@@ -51,6 +56,7 @@ h1, h2, h3, h4, h5, p {
 #brian_pic, #laquita_pic{
     width: 50%;
 }
+
 
 /******************************
     Navigation
@@ -104,13 +110,13 @@ nav {
     position: absolute;
     box-shadow: 0 0px 20px rgba(0,0,0,0.40);
 }
-	
+
+
 /******************************
     Main Picture
 *******************************/
 .slogan{
 	position: relative; 
-	color: #000;
 	text-align: center; 
 	width: 100%; 
 	padding-top: 2% !important;
@@ -249,10 +255,34 @@ p{
 #footer button{
 	color: #000 !important;
 }
+/******************************
+    Scroll Down
+*******************************/
+.scrolldown {
+    width: 0;
+    left: 80%;
+    bottom: 0;
+    position: fixed;
+    margin-left: 0px;
+    animation: indicate 5s linear infinite;
+    z-index: 99999;
+}
 
+.scrolldown::before {
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    font: .75em 'Arial';
+	color: #000;
+    bottom: 25px; left: 0px;
+}
+
+@keyframes indicate {
+      0% { bottom: 10% }
+    100% { bottom: -10%; opacity: 0 }
 
 /******************************
-    Text Size
+   Media Queries
 *******************************/
 
 @media only screen and (max-width : 320px) {
