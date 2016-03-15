@@ -242,7 +242,9 @@ p{
 /*Footer Contact Us Section background*/
 #footer {
     background:#b3070d !important;
-    padding:5% 0;
+    padding: 5% 0;
+	position: relative;
+	z-index: 99;
 }
 
 #footer, #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, 
@@ -265,12 +267,12 @@ p{
     position: fixed;
     margin-left: 0px;
     animation: indicate 5s linear infinite;
-    z-index: 99999;
+    z-index: 5;
 }
 
 .scrolldown::before {
     width: 100px;
-    position: absolute;
+    position: relative;
     text-align: center;
     font: .75em 'Arial';
 	color: #000;
