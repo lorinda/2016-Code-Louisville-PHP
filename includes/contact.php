@@ -21,8 +21,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">		
-							<p>Communication with the firm through this form does not establish an attorney-client relationship.
-                            <br />This form should not be used to transmit confidential or time-sensitive information.</p>
+							<p>Communication with the firm through this form does not establish an attorney-client relationship. This form should not be used to transmit confidential or time-sensitive information.</p>
                             <form action="myform.php" method="post" class="form-horizontal">
 								<div class="form-group">
 									<label for="name">Name</label>
