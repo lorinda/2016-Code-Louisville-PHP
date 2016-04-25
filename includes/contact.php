@@ -1,7 +1,9 @@
 <!--Code for "Contact Us" Footer-->
 			<footer id="footer">
 				<h1>CONTACT US TODAY!</h1>
-				<h2>Leave us a message in the form below, and we'll get right back to you.</h2>
+				<p>The information on this site provides general information but does not constitute legal advice.
+                <br />To get guidance on your legal concerns, contact Stokes &amp; Glass by phone or through the form below.
+                </p>
 				<div class="container">	
 					<div class="row">
 						<div class="col-md-6">		
@@ -19,7 +21,9 @@
 							</div>
 						</div>
 						<div class="col-md-6">		
-							<form action="myform.php" method="post" class="form-horizontal">
+							<p>Communication with the firm through this form does not establish an attorney-client relationship.
+                            <br />This form should not be used to transmit confidential or time-sensitive information.</p>
+                            <form action="myform.php" method="post" class="form-horizontal">
 								<div class="form-group">
 									<label for="name">Name</label>
 									<input type="text" class="form-control" name="name" required>
